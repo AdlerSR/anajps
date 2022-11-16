@@ -1,7 +1,7 @@
 import { styled } from "@/root/stitches.config";
 
 export const Container = styled('div', {
-  background: 'url("/test.webp"), linear-gradient(142deg, rgba(30, 56, 95, 1) 8%, rgba(42, 24, 72, 1) 53%, rgba(45, 14, 65, 1) 93%)',
+  background: 'url("/noise.webp"), linear-gradient(142deg, rgba(30, 56, 95, 1) 8%, rgba(42, 24, 72, 1) 53%, rgba(45, 14, 65, 1) 93%)',
   backgroundPosition: 'center',
   backgroundRepeat: 'no-repeat',
   backgroundSize: 'cover',
