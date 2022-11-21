@@ -18,7 +18,7 @@ const Header: React.FC = () => {
 
         <CustomLink href="/" color="pink">
           Entre em contato
-          <ArrowIcon fill="blue" />
+          <ArrowIcon />
         </CustomLink>
       </LinksWrapper>
     </Container>

@@ -1,4 +1,4 @@
-import { styled, getCssText, theme } from '@/root/stitches.config';
+import { styled, theme } from '@/root/stitches.config';
 
 import Link from 'next/link';
 import { darken } from 'polished';

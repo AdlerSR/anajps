@@ -1,4 +1,4 @@
-import { globalCss } from "../../stitches.config";
+import { globalCss } from '../../stitches.config';
 
 export const globalStyles = globalCss({
   '*': {
@@ -6,10 +6,10 @@ export const globalStyles = globalCss({
     padding: 0,
   },
   body: {
-    '-webkit-font-smoothing': 'antialiased'
+    '-webkit-font-smoothing': 'antialiased',
   },
   'body, input, textarea, button': {
     fontFamily: 'DM Sans',
-    fontWeight: 400
-  }
-})
+    fontWeight: 400,
+  },
+});
