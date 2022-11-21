@@ -1,6 +1,6 @@
 import { createStitches } from '@stitches/react';
 
-export const { styled, getCssText, globalCss } = createStitches({
+export const { styled, getCssText, globalCss, theme } = createStitches({
   theme: {
     fonts: {
       system: 'DM Sans',
@@ -34,7 +34,6 @@ export const { styled, getCssText, globalCss } = createStitches({
       '2xl': '32px',
       '3xl': '64px',
     },
-    
   },
   media: {
     bp_sm: '(min-width: 640px)',

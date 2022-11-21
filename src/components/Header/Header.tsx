@@ -1,27 +1,28 @@
 import React from 'react';
-import Link from 'next/link';
 
 import Logo from '@/components/Icons/Logo';
 
-import { Container, CustomLink, LinksWrapper } from './styles';
+import { ArrowIcon, Container, CustomLink, LinksWrapper } from './styles';
 
 const Header: React.FC = () => {
   return (
     <Container>
-      <Logo/>
+      <Logo />
       <LinksWrapper>
-        <CustomLink href="/" color='grey'>
+        <CustomLink href="/" color="grey">
           Sobre mim
         </CustomLink>
-        <CustomLink href="/" color='grey'>
+        <CustomLink href="/" color="grey">
           Linkedin
         </CustomLink>
-        <CustomLink href="/" color='pink'>
+
+        <CustomLink href="/" color="pink">
           Entre em contato
+          <ArrowIcon fill="blue" />
         </CustomLink>
       </LinksWrapper>
     </Container>
   );
-}
+};
 
 export default Header;
