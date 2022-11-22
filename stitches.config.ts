@@ -40,6 +40,6 @@ export const { styled, getCssText, globalCss, theme } = createStitches({
     bp_md: '(min-width: 768px)',
     bp_lg: '(min-width: 1024px)',
     bp_xl: '(min-width: 1280px)',
-    bp_2xl: '(min-width: 1280px)',
+    bp_2xl: '(min-width: 1455px)',
   },
 });

@@ -1,4 +1,5 @@
 import { styled } from '@/root/stitches.config';
+import Image from 'next/image';
 import Mouse from '../../components/Icons/Mouse';
 
 export const Container = styled('div', {
@@ -11,7 +12,7 @@ export const Container = styled('div', {
   variants: {},
 });
 
-export const Content = styled('div', {
+export const HeaderContent = styled('div', {
   padding: '80px 175px',
 });
 
@@ -50,4 +51,36 @@ export const GradientTitle = styled('span', {
 
 export const MouseIcon = styled(Mouse, {
   marginLeft: '10px',
+});
+
+export const ProjectsWrapper = styled('div', {
+  display: 'grid',
+  gap: '80px 32px',
+  padding: '180px 64px',
+  gridTemplate: `
+    "project1 project3" 660px
+    "project2 project4" 660px
+    / 1fr 1fr
+  `,
+});
+
+export const ProjectCard = styled('div', {
+  display: 'flex',
+  flexDirection: 'column',
+  alignItems: 'center',
+  flex: 1,
+  gap: '30px',
+});
+
+export const ProjectName = styled('p', {
+  color: '$grey400',
+  fontWeight: 500,
+  fontSize: '24px',
+});
+
+export const ProjectImage = styled(Image, { flex: 1, borderRadius: '24px' });
+
+export const GridItem = styled('div', {
+  display: 'flex',
+  flexDirection: 'column',
 });
