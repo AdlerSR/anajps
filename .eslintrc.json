@@ -58,7 +58,8 @@
         "devDependencies": ["**/*.test.tsx", "**/*.spec.tsx", "src/test/*"]
         }],
         "no-return-assign": "off",
-        "react/destructuring-assignment": "off"
+        "react/destructuring-assignment": "off",
+        "react/no-danger": "off"
     },
     "settings": {
         "import/resolver": {

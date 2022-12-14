@@ -32,7 +32,8 @@ export const { styled, getCssText, globalCss, theme } = createStitches({
       lg: '18px',
       xl: '24px',
       '2xl': '32px',
-      '3xl': '64px',
+      '3xl': '48px',
+      '4xl': '64px',
     },
   },
   media: {

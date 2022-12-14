@@ -25,10 +25,12 @@ export const Name = styled('h2', {
 });
 
 export const Title = styled('h1', {
-  fontSize: '$3xl',
+  fontSize: '$4xl',
   color: '$light',
   marginBottom: '95px',
 });
+
+export const ContentBackground = styled('div', {});
 
 export const GradientTitle = styled('span', {
   variants: {
@@ -57,7 +59,9 @@ export const ProjectsWrapper = styled('div', {
   display: 'grid',
   gap: '80px 32px',
   padding: '180px 64px',
+  justifyItems: 'start',
   gridTemplate: `
+    "subtitle description"
     "project1 project3" 660px
     "project2 project4" 660px
     / 1fr 1fr
@@ -83,4 +87,21 @@ export const ProjectImage = styled(Image, { flex: 1, borderRadius: '24px' });
 export const GridItem = styled('div', {
   display: 'flex',
   flexDirection: 'column',
+});
+
+export const Subtitle = styled('h2', {
+  fontStyle: 'normal',
+  fontWeight: 500,
+  fontSize: '32px',
+  gridArea: 'subtitle',
+  color: '$dark',
+});
+
+export const Description = styled('p', {
+  fontStyle: 'normal',
+  fontWeight: 400,
+  fontSize: '18px',
+  lineHeight: '150%',
+  gridArea: 'description',
+  color: '$grey300',
 });
